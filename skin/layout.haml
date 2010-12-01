@@ -1,0 +1,22 @@
+!!! Strict
+%html(lang="en" xmlns="http://www.w3.org/1999/xhtml")
+  %head
+    %meta(http-equiv="content-type" content="text/html; charset=UTF-8")
+    %title #{(title ? title + " - " : "")}Project Sapphire
+    %meta(name="description" content="Gathering our thoughts on the enterprise")
+    %link(href="/volcano.css?v2" rel="stylesheet")
+    %link(href="/print.css" rel="stylesheet" media="print")
+    %link(rel="alternate" type="application/rss+xml" title="RSS 2.0" href="/feed.xml")
+    %link(href="/favicon.ico" rel="icon" type="image/x-icon")
+  %body
+    #container
+      #header
+        %a{href: "/"}
+          %h1
+            Project Sapphire Documentation
+          %h2.tagline
+            Gathering our thoughts on the enterprise
+      = content
+      
+      #footer.clearfix
+        %p Wheat running on node #{process.version}
