@@ -3,7 +3,6 @@ Author: Josh Holt
 Date: Mon Nov 28 2010 17:00:00 GMT-0500 (EST)
 Node: v0.1.0 
 
-
 How to setup up your project for the Single Committer Model
 ==============================================================================
 
