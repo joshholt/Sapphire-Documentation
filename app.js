@@ -15,9 +15,9 @@ app = Connect.createServer(
 
 module.exports = app;
 
-// Only listen on $ node app.js
-
-if (!module.parent) {
+// // Only listen on $ node app.js
+// 
+// if (!module.parent) {
   app.listen(3000);
   console.log("Connect server listening on port %d", app.address().port);
-}
+// }
