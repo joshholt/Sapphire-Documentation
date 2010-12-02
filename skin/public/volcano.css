@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0 10px;
   font-family: sans-serif;
-  background: #6c7994 url(frost.gif);
+  background: #6c7994 url(rust.gif);
 }
 #container {
   max-width: 1200px;
@@ -28,18 +28,18 @@ body {
 }
 #header H1 {
   font-family: ArtBrushMedium, sans-serif;
-  text-shadow: #fff 1px 1px 5px;
+  text-shadow: #000 1px 1px 5px;
   font-weight: bold;
   font-size: 74px;
   line-height: 1em;
-  color: #000;
+  color: #fff;
   padding: 0;
   margin: 15px 30px 5px;
 }
 #header .tagline {
   font-family: ArtBrushMedium, sans-serif;
-  color: #222;
-  text-shadow: #fff 1px 1px 3px;
+  color: #fff;
+  text-shadow: #222 2px 2px 3px;
   margin: 5px 30px 20px;
   font-weight: bold;
   font-size: 26px;
@@ -66,7 +66,7 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 #main {
-    float:left;
+  float:left;
   background-color: #fdfeff;
   padding: 10px 30px;
   margin-right:0;
