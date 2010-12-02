@@ -62,7 +62,7 @@ favorite text editor..
 		result = git rebase --continue
 		
 		if (result == "did you forget to add?") {
-			forgotten = git status										// Displays modified files
+			forgotten = git status							// Displays modified files
 			if (forgotten) {
 				foreach (forgottenFile) {
 					git add path/to/forgotten.file	
