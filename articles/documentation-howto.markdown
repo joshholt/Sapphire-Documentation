@@ -21,6 +21,8 @@ A few examples of things that would be useful:
 
 I have already added documentation for the _Single Committer Model_ using Git. It can be found [here][].
 
+<img src="documentation-howto/single-comitter-snap.png" style="float: none; height: 201px; width:260px;"></img>
+
 So, if you have something to contribute please feel free to help the enterprise project's knowledge base grow.
 
 [git repository]: #
