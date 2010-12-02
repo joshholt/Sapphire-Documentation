@@ -1,15 +1,16 @@
 Title: Git Single Committer Process
 Author: Josh Holt
 Date: Mon Nov 28 2010 17:00:00 GMT-0500 (EST)
-Node: v0.1.0 
 
-How to setup up your project for the Single Committer Model
-==============================================================================
+The _Single Committer Model_ is not intended to facilitate a dictatorship, but should be used to allow a peaceful coexistence between all of the developers working on a project. The _Single Committer Model_ helps ensure small amounts of conflicts (although it may not seem that way in the beginning). This is accomplished by pushing the conflict resolution back to the developer, which keeps the master clean!
+You can think of the _Single Comitter Model_ as a way to get through traffic without dealing with rush hour.
+
+## How to setup up your project for the Single Committer Model
 
 In your project directory you will need to open the __.git/config__ file in your
 favorite text editor..
 
-> # Original Contents of _.git/config_ #
+> ## Original Contents of _.git/config_ #
 	[core]
 		repositoryformatversion = 0
 		filemode = true
@@ -23,7 +24,7 @@ favorite text editor..
 		remote = origin
 		merge = refs/heads/master
 
-> # Modified Contents of _.git/config_ #
+> ## Modified Contents of _.git/config_ #
 	[core]
 		repositoryformatversion = 0
 		filemode = true
@@ -39,21 +40,18 @@ favorite text editor..
 		merge = refs/heads/master
 		
 
-When you are ready to bring _you local master_ in sync with the TOT
-==============================================================================
+## When you are ready to bring _you local master_ in sync with the TOT
 
 	git checkout master
 	git fetch origin
 	git rebase origin/master
 
-When you are ready to bring a _&lt;topic branch&gt;_ in sync with _your local master_
-==============================================================================
+## When you are ready to bring a _&lt;topic branch&gt;_ in sync with _your local master_
 	
 	git checkout <topic branch>
 	git rebase master
 
-When you encounter conflicts
-==============================================================================
+## When you encounter conflicts
 
 	if (conflicts) {
 		foreach (confilctedFile) {
@@ -81,8 +79,7 @@ When you encounter conflicts
 		}	
 	}
 	
-Decision Points
-==============================================================================
+## Decision Points
 
 When you have an idea or a task that you need to code, you will want to create a local topic branch ( Because branches are cheap in GIT ).
 
@@ -100,8 +97,7 @@ When you have an idea or a task that you need to code, you will want to create a
 	git checkout master
 	git checkout -b <topic/task/idea branch>
 	
-Regular Commit Process
-==============================================================================
+## Regular Commit Process
 
 When you have completed a task/thought or you just want to commit your progress
 you can follow the following guidelines.. 
@@ -143,8 +139,7 @@ you can follow the following guidelines..
 			git commit -m "<my clear commit message>"
 		}
 	}
-Prepare to be integrated
-==============================================================================
+## Prepare to be integrated
 
 	// First ensure that you local master branch is up-to-date
 	git checkout master
