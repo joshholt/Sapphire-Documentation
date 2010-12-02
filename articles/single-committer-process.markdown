@@ -46,7 +46,7 @@ When you are ready to bring _you local master_ in sync with the TOT
 	git fetch origin
 	git rebase origin/master
 
-When you are ready to bring a _<topic branch>_ in sync with _your local master_
+When you are ready to bring a _&lt;topic branch&gt;_ in sync with _your local master_
 ==============================================================================
 	
 	git checkout <topic branch>
@@ -84,8 +84,7 @@ When you encounter conflicts
 Decision Points
 ==============================================================================
 
-When you an idea or a task the you need to code your will want to create a local
-topic branch ( Because branches are cheap in GIT ).
+When you have an idea or a task that you need to code, you will want to create a local topic branch ( Because branches are cheap in GIT ).
 
 	// First ensure that your master is up-to-date
 	git checkout master
