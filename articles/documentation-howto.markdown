@@ -1,4 +1,4 @@
-Title: Adding to the Project Sapphire knowledge base
+Title: Adding to the knowledge base
 Author: Josh Holt
 Date: Wed Dec 1 2010 21:19:00 GMT-0500 (EST)
 
