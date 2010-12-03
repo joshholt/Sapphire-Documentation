@@ -12,16 +12,14 @@
       %a{href: "/" + article.name} Read more...
 
 #sidebar
-  .aside
-    = markdownEncode(description)
   .bubble
-    %h4
+    %h3
       Articles
     %ul
       :each article in articles.slice(0,20)
         %li
           %a{href: "/" + article.name}&=article.title
-          &=" by " + article.author.name
+          %span.versiontag&= article.author.name
           :if article.node
             %span.versiontag&= article.node
   .bubble= markdownEncode(description)
