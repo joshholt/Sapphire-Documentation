@@ -1,5 +1,5 @@
-Title: Git Single Committer Process
-Author: Josh Holt
+Title: Andrew Stock File
+Author: astok
 Date: Tue Dec 7 2010 14:02:03 GMT-0500 (EST)
 
 Example document.
